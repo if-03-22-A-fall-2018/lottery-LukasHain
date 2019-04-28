@@ -23,6 +23,7 @@ bool 	get_tip (int tip_number, int tip[TIP_SIZE]);
 bool 	set_drawing (int drawing_numbers[TIP_SIZE]);
 int 	get_tip_result (int tip_number);
 int 	get_right_tips_count (int right_digits_count);
+int   get_to_start(char* line);
 
 
 #endif
